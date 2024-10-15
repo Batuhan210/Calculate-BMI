@@ -20,7 +20,7 @@ bodyMassIndex = calculate_bmi(weight, height)
 print(f"Your BMI is {bodyMassIndex:.2f}")
 
 
-""" Status is according to body mass index """
+""" Status according to body mass index """
 if bodyMassIndex < 18.5:
     status = "Underweight"
 elif 18.5 <= bodyMassIndex < 25:
